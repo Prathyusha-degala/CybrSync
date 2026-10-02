@@ -1,0 +1,7 @@
+userName,address,osType
+local_admin_ops,web01.corp.local,Windows
+svc_backup,fs02.corp.local,Windows
+deploy,app-lnx-03.corp.local,Linux
+oracle,db-lnx-01.corp.local,Linux
+cio_admin,exec-ws01.corp.local,Windows
+helpdesk_local,ceo_laptop.corp.local,Windows

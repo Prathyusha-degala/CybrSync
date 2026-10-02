@@ -1,0 +1,26 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  .card { @apply rounded-2xl border border-slate-800 bg-slate-900/60 backdrop-blur; }
+  .btn { @apply inline-flex items-center justify-center gap-2 rounded-lg px-4 py-2 text-sm font-semibold transition focus:outline-none focus-visible:ring-2 focus-visible:ring-emerald-400/70 disabled:cursor-not-allowed disabled:opacity-40; }
+  .btn-primary { @apply btn bg-emerald-500 text-slate-950 hover:bg-emerald-400 shadow-lg shadow-emerald-500/20; }
+  .btn-ghost { @apply btn border border-slate-700 text-slate-200 hover:border-emerald-500/60 hover:text-emerald-300; }
+  .btn-xs { @apply rounded-md px-2 py-1 text-xs font-medium; }
+  .input { @apply w-full rounded-lg border border-slate-700 bg-slate-950/70 px-3 py-2 text-sm text-slate-100 placeholder-slate-500 focus:border-emerald-500 focus:outline-none focus:ring-1 focus:ring-emerald-500/50; }
+  .label { @apply mb-1 block text-xs font-medium uppercase tracking-wider text-slate-400; }
+  .chip { @apply inline-flex items-center gap-1 rounded-full border px-2 py-0.5 text-xs font-medium; }
+  .grid-bg {
+    background-image: linear-gradient(rgba(16, 185, 129, 0.06) 1px, transparent 1px),
+      linear-gradient(90deg, rgba(16, 185, 129, 0.06) 1px, transparent 1px);
+    background-size: 40px 40px;
+  }
+  .flow-line {
+    background-image: repeating-linear-gradient(90deg, #10b981 0 8px, transparent 8px 16px);
+    background-size: 24px 2px;
+  }
+  .flow-line-v {
+    background-image: repeating-linear-gradient(180deg, #10b981 0 8px, transparent 8px 16px);
+  }
+}
