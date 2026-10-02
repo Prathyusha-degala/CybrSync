@@ -124,3 +124,5 @@ Set these before `python run.py`:
 - **Blast radius.** The only write CybrSync ever makes is `POST /API/Accounts`, and the live UI asks for confirmation first.
 
 > Use a least-privilege PVWA user: *List accounts* and *View account details* on the scanned safes, plus *Add accounts* on the onboarding target safe. For AD, use a read-only bind account.
+# CybrSync
+CybrSync landing page — an interactive demo platform for testing CyberArk architecture logic and CPM workflow scenarios.
